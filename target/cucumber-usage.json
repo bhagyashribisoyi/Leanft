@@ -1,0 +1,219 @@
+[
+  {
+    "source": "^sucessful login to ORMS home page$",
+    "steps": [
+      {
+        "name": "sucessful login to ORMS home page",
+        "aggregatedDurations": {
+          "average": 0.074345643,
+          "median": 0.074345643
+        },
+        "durations": [
+          {
+            "duration": 0.074345643,
+            "location": "A_Login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User makes a search with data present in excel sheet \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User makes a search with data present in excel sheet \"TD001\"",
+        "aggregatedDurations": {
+          "average": 3.677546617,
+          "median": 3.677546617
+        },
+        "durations": [
+          {
+            "duration": 3.677546617,
+            "location": "B_SearchOverPayment.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "User makes a search with data present in excel sheet \"TD002\"",
+        "aggregatedDurations": {
+          "average": 2.820370884,
+          "median": 2.820370884
+        },
+        "durations": [
+          {
+            "duration": 2.820370884,
+            "location": "B_SearchOverPayment.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "User makes a search with data present in excel sheet \"TD004\"",
+        "aggregatedDurations": {
+          "average": 2.812220561,
+          "median": 2.812220561
+        },
+        "durations": [
+          {
+            "duration": 2.812220561,
+            "location": "B_SearchOverPayment.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is in login page$",
+    "steps": [
+      {
+        "name": "user is in login page",
+        "aggregatedDurations": {
+          "average": 26.571241275,
+          "median": 26.571241275
+        },
+        "durations": [
+          {
+            "duration": 26.571241275,
+            "location": "A_Login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Selects Search option under Overpayment$",
+    "steps": [
+      {
+        "name": "User Selects Search option under Overpayment",
+        "aggregatedDurations": {
+          "average": 2.744671503,
+          "median": 2.560026172
+        },
+        "durations": [
+          {
+            "duration": 2.560026172,
+            "location": "B_SearchOverPayment.feature:7"
+          },
+          {
+            "duration": 2.446388494,
+            "location": "B_SearchOverPayment.feature:7"
+          },
+          {
+            "duration": 3.227599843,
+            "location": "B_SearchOverPayment.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User returns to Home Page$",
+    "steps": [
+      {
+        "name": "User returns to Home Page",
+        "aggregatedDurations": {
+          "average": 0.67063093,
+          "median": 0.225289054
+        },
+        "durations": [
+          {
+            "duration": 1.668634099,
+            "location": "B_SearchOverPayment.feature:10"
+          },
+          {
+            "duration": 0.225289054,
+            "location": "B_SearchOverPayment.feature:10"
+          },
+          {
+            "duration": 0.117969639,
+            "location": "B_SearchOverPayment.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^OverPayment details should not  be displayed for \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "OverPayment details should not  be displayed for \"TD004\"",
+        "aggregatedDurations": {
+          "average": 0.506053054,
+          "median": 0.506053054
+        },
+        "durations": [
+          {
+            "duration": 0.506053054,
+            "location": "B_SearchOverPayment.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^entering username \u0026 password$",
+    "steps": [
+      {
+        "name": "entering username \u0026 password",
+        "aggregatedDurations": {
+          "average": 12.550679228,
+          "median": 12.550679228
+        },
+        "durations": [
+          {
+            "duration": 12.550679228,
+            "location": "A_Login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^OverPayment details should be displayed for \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "OverPayment details should be displayed for \"TD001\"",
+        "aggregatedDurations": {
+          "average": 5.20996269,
+          "median": 5.20996269
+        },
+        "durations": [
+          {
+            "duration": 5.20996269,
+            "location": "B_SearchOverPayment.feature:9"
+          }
+        ]
+      },
+      {
+        "name": "OverPayment details should be displayed for \"TD002\"",
+        "aggregatedDurations": {
+          "average": 0.94339981,
+          "median": 0.94339981
+        },
+        "durations": [
+          {
+            "duration": 0.94339981,
+            "location": "B_SearchOverPayment.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^logout from the ORMS Application$",
+    "steps": [
+      {
+        "name": "logout from the ORMS Application",
+        "aggregatedDurations": {
+          "average": 0.146498639,
+          "median": 0.146498639
+        },
+        "durations": [
+          {
+            "duration": 0.146498639,
+            "location": "Logout.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

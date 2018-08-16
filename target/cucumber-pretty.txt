@@ -1,0 +1,54 @@
+@Login
+Feature: Log into ORMS application and search OverPayment
+
+  Scenario: Login Functionality of ORMS application # A_Login.feature:5
+    Given user is in login page                     # LoginStepDefination.user_is_in_login_page()
+    When entering username & password               # LoginStepDefination.entering_username_password()
+    Then sucessful login to ORMS home page          # LoginStepDefination.sucessful_login_to_ORMS_home_page()
+@OverPayment
+Feature: Log into ORMS application and search OverPayment
+
+  @OverPayment
+  Scenario Outline: Search an OverPayment and verify that result is displayed # B_SearchOverPayment.feature:5
+    Given User Selects Search option under Overpayment
+    When User makes a search with data present in excel sheet "<Data_ID>"
+    Then OverPayment details should be displayed for "<Data_ID>"
+    And User returns to Home Page
+
+    Examples: 
+
+  @OverPayment
+  Scenario Outline: Search an OverPayment and verify that result is displayed # B_SearchOverPayment.feature:14
+    Given User Selects Search option under Overpayment                        # HomeStepDefiantion.user_Selects_Search_option_under_Overpayment()
+    When User makes a search with data present in excel sheet "TD001"         # OverPaymentSearchStepDefination.user_makes_a_search_with_data_present_in_excel_sheet(String)
+    Then OverPayment details should be displayed for "TD001"                  # OverPaymentSearchStepDefination.overpayment_details_should_be_displayed_for(String)
+    And User returns to Home Page                                             # HomeStepDefiantion.user_returns_to_Home_Page()
+
+  @OverPayment
+  Scenario Outline: Search an OverPayment and verify that result is displayed # B_SearchOverPayment.feature:15
+    Given User Selects Search option under Overpayment                        # HomeStepDefiantion.user_Selects_Search_option_under_Overpayment()
+    When User makes a search with data present in excel sheet "TD002"         # OverPaymentSearchStepDefination.user_makes_a_search_with_data_present_in_excel_sheet(String)
+    Then OverPayment details should be displayed for "TD002"                  # OverPaymentSearchStepDefination.overpayment_details_should_be_displayed_for(String)
+    And User returns to Home Page                                             # HomeStepDefiantion.user_returns_to_Home_Page()
+
+  @OverPayment
+  Scenario Outline: Search an OverPayment and verify that result is not displayed # B_SearchOverPayment.feature:18
+    Given User Selects Search option under Overpayment
+    When User makes a search with data present in excel sheet "<Data_ID>"
+    Then OverPayment details should not  be displayed for "<Data_ID>"
+    And User returns to Home Page
+
+    Examples: 
+
+  @OverPayment
+  Scenario Outline: Search an OverPayment and verify that result is not displayed # B_SearchOverPayment.feature:27
+    Given User Selects Search option under Overpayment                            # HomeStepDefiantion.user_Selects_Search_option_under_Overpayment()
+    When User makes a search with data present in excel sheet "TD004"             # OverPaymentSearchStepDefination.user_makes_a_search_with_data_present_in_excel_sheet(String)
+    Then OverPayment details should not  be displayed for "TD004"                 # OverPaymentSearchStepDefination.overpayment_details_should_not_be_displayed_for(String)
+    And User returns to Home Page                                                 # HomeStepDefiantion.user_returns_to_Home_Page()
+@Logout
+Feature: Logout from ORM
+  t
+
+  Scenario: Logout from the ORMS application # Logout.feature:4
+    Then logout from the ORMS Application    # HomeStepDefiantion.logout_from_the_ORMS_Application()
