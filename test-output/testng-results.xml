@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69776" started-at="2018-08-14T14:54:16Z" finished-at="2018-08-14T14:55:26Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa_ORMS_TestRunner.ORMS@77caeb3e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="69776" started-at="2018-08-14T14:54:16Z" finished-at="2018-08-14T14:55:26Z">
+      <class name="com.qa_ORMS_TestRunner.ORMS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa_ORMS_TestRunner.ORMS@77caeb3e]" name="setUpClass" is-config="true" duration-ms="593" started-at="2018-08-14T20:24:16Z" finished-at="2018-08-14T20:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa_ORMS_TestRunner.ORMS@77caeb3e]" name="setup" is-config="true" duration-ms="1077" started-at="2018-08-14T20:24:17Z" finished-at="2018-08-14T20:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa_ORMS_TestRunner.ORMS@77caeb3e]" name="feature" duration-ms="39803" started-at="2018-08-14T20:24:18Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-14T20:24:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Log into ORMS application and search OverPayment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa_ORMS_TestRunner.ORMS@77caeb3e]" name="feature" duration-ms="26322" started-at="2018-08-14T20:24:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-14T20:25:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Log into ORMS application and search OverPayment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa_ORMS_TestRunner.ORMS@77caeb3e]" name="feature" duration-ms="165" started-at="2018-08-14T20:25:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-14T20:25:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Logout from ORM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa_ORMS_TestRunner.ORMS@77caeb3e]" name="TearDown" is-config="true" duration-ms="621" started-at="2018-08-14T20:25:24Z" finished-at="2018-08-14T20:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa_ORMS_TestRunner.ORMS@77caeb3e]" name="tearDownClass" is-config="true" duration-ms="1030" started-at="2018-08-14T20:25:25Z" finished-at="2018-08-14T20:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa_ORMS_TestRunner.ORMS -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

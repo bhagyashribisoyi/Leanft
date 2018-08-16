@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="65.558226">
+<testcase classname="Log into ORMS application and search OverPayment" name="Login Functionality of ORMS application" time="39.196266">
+<system-out><![CDATA[Given user is in login page.................................................passed
+When entering username & password...........................................passed
+Then sucessful login to ORMS home page......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Log into ORMS application and search OverPayment" name="Search an OverPayment and verify that result is displayed" time="13.11617">
+<system-out><![CDATA[Given User Selects Search option under Overpayment..........................passed
+When User makes a search with data present in excel sheet "TD001"...........passed
+Then OverPayment details should be displayed for "TD001"....................passed
+And User returns to Home Page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Log into ORMS application and search OverPayment" name="Search an OverPayment and verify that result is displayed 2" time="6.435448">
+<system-out><![CDATA[Given User Selects Search option under Overpayment..........................passed
+When User makes a search with data present in excel sheet "TD002"...........passed
+Then OverPayment details should be displayed for "TD002"....................passed
+And User returns to Home Page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Log into ORMS application and search OverPayment" name="Search an OverPayment and verify that result is not displayed" time="6.663843">
+<system-out><![CDATA[Given User Selects Search option under Overpayment..........................passed
+When User makes a search with data present in excel sheet "TD004"...........passed
+Then OverPayment details should not  be displayed for "TD004"...............passed
+And User returns to Home Page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Logout from ORM" name="Logout from the ORMS application" time="0.146499">
+<system-out><![CDATA[Then logout from the ORMS Application.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
